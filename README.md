@@ -1,4 +1,4 @@
-Shape Detector Challenge: Completed Implementation
+**Shape Detector Challenge: Completed Implementation**
 
 This repository contains my completed, from-scratch solution for the Shape Detector assignment.
 
@@ -10,7 +10,7 @@ My Technical Approach: A 4-Step Pipeline
 
 The challenge constraints required building a full computer vision pipeline from scratch, without any external CV libraries. My entire implementation is self-contained within the ShapeDetector class in src/main.ts.
 
-My pipeline consists of four main stages:
+**My pipeline consists of four main stages:**
 
 Step 1: Grayscale & Edge Detection
 
@@ -80,7 +80,7 @@ Problem: I discovered the src/evaluation.ts script itself had a logic issue. It 
 
 Solution: I modified src/evaluation.ts (specifically the calculateScore and runEvaluation functions) to add a special case: If the expected shapes are 0 and the detected shapes are 0, award a full 100 points. This patch fixed the evaluation script and allowed our perfect algorithm to receive its true 100% score.
 
-Final Test Results
+**Final Test Results**
 
 The fully-tuned algorithm, combined with the fixed evaluation script, achieves a 100% score on the full test suite.
 
@@ -92,7 +92,7 @@ Custom Image Test
 
 The application provides an "Upload Image" button. I tested this with a custom image containing multiple shapes, and it successfully identified them, proving the algorithm is robust.
 
-How to Run This Project
+**How to Run This Project**
 
 Navigate to the Project Directory
 Note: If you downloaded this as a zip file, you may have a nested folder (e.g., shape-detector-main/shape-detector-main/). Please make sure you are in the correct directory (the one containing package.json) before running any commands.
