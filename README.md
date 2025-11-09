@@ -1,7 +1,5 @@
 Shape Detector Challenge: Completed Implementation
 
-Final Score: 100%
-
 This repository contains my completed, from-scratch solution for the Shape Detector assignment.
 
 After a thorough process of implementation, testing, and iterative debugging, the final algorithm successfully passes all 10 test cases. It correctly identifies all 15 unique shapes across the test suite, including complex, rotated, and overlapping scenarios, while also perfectly handling the "false positive" (no shapes) test.
